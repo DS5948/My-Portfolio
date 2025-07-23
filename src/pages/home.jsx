@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { FaReact, FaHtml5, FaCss3Alt } from "react-icons/fa";
-import { SiWebrtc, SiCodemirror, SiReactquery, SiShadcnui, SiExpress, SiMongodb, SiMysql, SiSocketdotio } from "react-icons/si";
+import { SiWebrtc, SiCodemirror, SiReactquery, SiShadcnui, SiExpress, SiMongodb, SiMysql, SiSocketdotio, SiLeetcode } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { IoLogoJavascript } from "react-icons/io5";
@@ -504,7 +504,7 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
               <GlassmorphicCard>
                 <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 rounded-full bg-zinc-800 flex items-center justify-center">
+                  <div className="w-12 h-12 rounded-full flex items-center justify-center">
                     <Github className="h-6 w-6 text-blue-400" />
                   </div>
                   <div>
@@ -532,7 +532,7 @@ export default function Home() {
 
               <GlassmorphicCard>
                 <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 rounded-full bg-zinc-800 flex items-center justify-center">
+                  <div className="w-12 h-12 rounded-full flex items-center justify-center">
                     <Linkedin className="h-6 w-6 text-blue-400" />
                   </div>
                   <div>
@@ -560,30 +560,8 @@ export default function Home() {
 
               <GlassmorphicCard>
                 <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 rounded-full bg-zinc-800 flex items-center justify-center">
                     {/* LeetCode icon - using a generic icon as Lucide doesn't have a specific one */}
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="h-6 w-6 text-blue-400"
-                    >
-                      <path d="M16 18h.01" />
-                      <path d="M10 18h.01" />
-                      <path d="M13 18h.01" />
-                      <path d="M19 6H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2Z" />
-                      <path d="M10 3v3" />
-                      <path d="M14 3v3" />
-                      <path d="M17 3v3" />
-                      <path d="M7 3v3" />
-                    </svg>
-                  </div>
+                    <SiLeetcode className="text-blue-400" size={30}/>
                   <div>
                     <h3 className="text-xl font-bold">LeetCode</h3>
                     <p className="text-zinc-400">
