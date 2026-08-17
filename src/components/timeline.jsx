@@ -5,7 +5,7 @@ const experiences = [
   {
     title: "Software Engineering Intern",
     company: "Grid Dynamics",
-    period: "Jan 2026 – Jun 2026",
+    period: "Jan 2026 – Jul 2026",
     type: "Experience",
     description:
       "Worked on TalentGrid, an AI-native workforce intelligence platform, across enterprise backend and full-stack workflows.",
