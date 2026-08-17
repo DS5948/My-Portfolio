@@ -109,7 +109,7 @@ export default function Home() {
                 B.Tech in Computer Science and Engineering from MNNIT Allahabad
                 with hands-on software engineering experience at Grid Dynamics.
                 I build backend and full-stack products using Java, Spring Boot,
-                React, REST APIs, Kafka, PostgreSQL, and modern web technologies.
+                React, NodeJS, REST APIs, Kafka, PostgreSQL, and modern web technologies.
               </motion.p>
 
               <motion.div
